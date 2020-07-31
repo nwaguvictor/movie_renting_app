@@ -1,0 +1,31 @@
+:root {
+    --color-primary: #e74c3c;
+    --color-secondary: #27ae60;
+    --color-tertiary: #34495e;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Nunito', 'Bitter', sans-serif;
+    width: 100%;
+    background-color: var(--color-primary);
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
